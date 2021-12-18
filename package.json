@@ -1,0 +1,30 @@
+{
+  "name": "storybook.git",
+  "version": "1.0.0",
+  "description": "storybook 디자인시스템",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/make-story/storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/make-story/storybook/issues"
+  },
+  "homepage": "https://github.com/make-story/storybook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/html": "^6.4.9",
+    "babel-loader": "^8.2.3"
+  },
+  "dependencies": {}
+}
